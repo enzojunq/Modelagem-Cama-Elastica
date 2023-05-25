@@ -25,7 +25,7 @@ for x in range(len(lista_y)):
     y_final = y2 + y3
     
     lista_altura.append(y_final)
-    lista_tempo.append(float(tempo[x] - z)+1.334)
+    lista_tempo.append(float(tempo[x] - z) + 1.334)
 
 # Abrir o arquivo para escrita
 with open('dados.txt', 'w') as arquivo:
